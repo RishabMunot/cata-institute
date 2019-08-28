@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "Georgia";
+  src: url("/Resources/georgia.ttf");
+}
+
+.margin{
+  margin: 0 7%;
+}
+
+.font-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-raleway{
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-georgia{
+  font-family: 'Georgia', sans-serif;
+}
+
+.navbar-brand{
+  margin:  0 7%;
+  padding: 0;
+  font-size: 20px;
+}
+
+
+.collapse{
+  margin-right: 6%;
+  padding: 0;
+}
+
+.nav-item{
+  margin: 0 0.7rem;
+}
+
+.nav-link{
+  padding-right: 0;
+}
+
+.landing-container{
+  color: #fff;
+  background-image: url('Resources/classroom.jpg');
+  background-size: cover;
+  height: 101vh;
+  padding: 10% 10%;
+}
+
+.title-content{
+  text-align: center;
+}
+
+.title-head{
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 3px;
+  font-size: 3rem;
+
+}
+
+.title-description{
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.main-content{
+  padding: 0 0 0 5%;
+  margin-top: 10%;
+}
+
+
+
+.search-div{
+  padding-right: 5px;
+
+}
+
+.search-btn-div{
+  padding-left: 5px;
+}
+
+
+.categories-icon{
+  width: 16px;
+  margin-left:10px;
+}
+
+.search-sec{
+  margin-top: 5%;
+  align-items: center;
+}
+
+.features-container{
+  margin: 0 100px;
+  color: #000;
+  text-align: center;
+  margin: 8% 7%;
+}
+
+.feature-box{
+  padding: 0 20px;
+}
+
+
+.feature-icon{
+  width: 50px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.feature-box:hover>.feature-icon{
+  color: #f96d15;
+  transform: translateY(-15px);
+}
+
+
+.courses-container{
+  margin: 0;
+  padding: 0 7% 5% 5% ;
+  background-color: #45969b;
+
+}
+
+.steps-carousel{
+margin-top: 1%;
+}
+
+.carousel-item{
+  padding: 15% 10%;
+}
+
+.steps-stepNo{
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.steps-head{
+  font-family: Raleway;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+}
+
+.steps-description{
+  font-family: Montserrat;
+}
+
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 80%; position:relative; }
+.MultiCarousel .MultiCarousel-inner { transition: 0.1s ease all; float: left; }
+.MultiCarousel .MultiCarousel-inner .item { float: left;}
+.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#fff; color:#666;}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius: 100%; top:calc(50% - 20px); background-color: #f96d15;}
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#eee; }
+
+
+.navy-icon{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 2px;
+}
+
+.btn{
+  border: 0;
+  padding: 5;
+  margin: 0;
+}
+
+.MultiCarousel{
+  width: 100%;
+}
+
+.horizontal-list{
+  margin-top: 5%;
+  color: #fff;
+}
+
+.item-div
+{
+  border-radius: 5px;
+  text-align: center;
+  height: 100px;
+background-color: #FFF;
+
+}
+
+.item{
+
+}
+
+.text-div{
+  margin-top: 30px;
+}
+
+.carousel-item{
+  /* background-color: #254E58; */
+  text-align: center;
+  color: #fff;
+}
+
+.blog-container{
+  margin: 7% 15%;
+  background-color: #f8f8f8;
+}
+
+.card{
+  margin: 0 20px;
+  padding: 0;
+  transition: 1s;
+}
+.card-title{
+  transition: 0.5s;
+}
+
+.card:hover .card-title{
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+.accent-color{
+  background-color: #f96d15;
+  color: #fff;
+}
+
+.footer-container{
+  padding: 1%;
+  background: grey;
+  text-align: center;
+  margin: 0 0;
+}
+
+.footer-item{
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  right: 3px;
+  top: 40%;
+}
+
+.dropdown-submenu:hover .dropdown-menu,
+.dropdown-submenu:focus .dropdown-menu {
+  display: block;
+  margin-top: -1px;
+  margin-left: -1px;
+  top: 0px;
+  left: 100%;
+  min-height: 100%;
+}
+
+.dropdown-menu {
+  min-height: 300px;
+}
+
+#bootstrap-edits .add-to-ul{
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+#bootstrap-edits .add-to-dropdown-div{
+  min-height: 250px;
+}

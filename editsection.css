@@ -1,0 +1,160 @@
+body{
+  padding: 80px;
+  background: red;
+}
+
+.tab-pane{
+  margin: 0
+}
+
+p{
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: #fff
+}
+
+.option-tab{
+  background: #ADD8E6;
+  cursor:pointer;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+h3{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #eee;
+  padding:20px;
+  margin-bottom: 0
+}
+
+.mark-tab{
+  border-bottom-style: solid;
+  border-bottom-color: blue;
+  border-bottom-width: thick;
+}
+
+.mark-tab:after
+ {
+  content: "";
+  position: relative;
+  bottom: -58px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: blue ;
+}
+
+.info-input{
+  padding: 30px;
+  margin: 0;
+  background: #222;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.btnRegister{
+    float: right;
+    margin-top: 8%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2% 1%;
+    background: green;
+    color: #fff;
+    font-weight: 600;
+    width: 40%;
+    cursor: pointer;
+}
+
+.tab-active{
+  background-color: blue;
+}
+
+/* Images Gallery */
+.preview-images-zone {
+    width: 100%;
+    border: 1px solid #ddd;
+    min-height: 180px;
+    /* display: flex; */
+    padding: 5px 5px 0px 5px;
+    position: relative;
+    overflow:auto;
+}
+.preview-images-zone > .preview-image:first-child {
+    height: 185px;
+    width: 185px;
+    position: relative;
+    margin-right: 5px;
+}
+.preview-images-zone > .preview-image {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 5px;
+}
+.preview-images-zone > .preview-image > .image-zone {
+    width: 100%;
+    height: 100%;
+}
+.preview-images-zone > .preview-image > .image-zone > img {
+    width: 100%;
+    height: 100%;
+}
+.preview-images-zone > .preview-image > .tools-edit-image {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+.preview-images-zone > .preview-image > .image-cancel {
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+}
+.preview-image:hover > .image-zone {
+    cursor: move;
+    opacity: .5;
+}
+.preview-image:hover > .tools-edit-image,
+.preview-image:hover > .image-cancel {
+    display: block;
+}
+.ui-sortable-helper {
+    width: 90px !important;
+    height: 90px !important;
+}
+
+.container {
+    padding-top: 50px;
+    margin: 0;
+}
+#gallery-submit{
+  width: 23%;
+  padding: 13px;
+}
+
+.faculty-list{
+  padding: 50px;
+  text-align: center;
+
+}
+
+.faculty-card{
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-style: inset;
+  border-width: 1px;
+  border-radius: 5px;
+}
